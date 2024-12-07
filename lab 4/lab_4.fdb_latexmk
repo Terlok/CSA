@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733510629.76907 "/home/alex/Projects/CSA/lab 4/lab_4.tex" "lab_4.pdf" "lab_4" 1733510630.80576 0
+["pdflatex"] 1733607146.58304 "/home/alex/Projects/CSA/lab 4/lab_4.tex" "lab_4.pdf" "lab_4" 1733607147.64477 0
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1728260685.65084 3308 eee81981029f67083258db36df06e523 ""
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728260682.7975 3304 6a543c07045572737981351171e0505e ""
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1728260691.5975 3312 d199be9bd555944e2403193d58a0256a ""
@@ -7,7 +7,7 @@
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1728260679.74417 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1728260688.66417 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/alex/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1729270067.54666 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
-  "/home/alex/Projects/CSA/lab 4/lab_4.tex" 1733510628.51411 6229 768def6a83bd36a5e2324dac08f83efe ""
+  "/home/alex/Projects/CSA/lab 4/lab_4.tex" 1733607146.359 8187 e9dc48e4ff6e2ac9b1bf58abd2c6fa95 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1727349926 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727349926 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc" 1727349926 3341 78e600b269762aa2a25a5293cc4535c0 ""
@@ -55,6 +55,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1727349926 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb" 1727349926 131078 d96015a2fa5c350129e933ca070b2484 ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1727349926 131438 3aa300b3e40e5c8ba7b4e5c6cebc5dd6 ""
+  "/usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1727349926 167085 68de377d2744a68a88fa40a1f610615a ""
   "/usr/share/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb" 1727349926 229585 bdba772a656e8a0005d66210fc9c2be0 ""
   "/usr/share/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol8.pfb" 1727349926 228273 1b9652077d8f9fdc99f210b93860040b ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1727349926 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -163,9 +164,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728221588.52994 5467607 1f3b9843102088c2a7136e28f005c5e4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728259518 8555703 46be9ff9456b56e497a950daa6f36937 ""
-  "lab_4.aux" 1733510630.65749 262 9b935d62716ad8a6c35ae524c80ec52f "pdflatex"
-  "lab_4.out" 1733510630.53082 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "lab_4.tex" 1733510628.51411 6229 768def6a83bd36a5e2324dac08f83efe ""
+  "Prt sc/Python_code.png" 1733607020.57505 28060 0723bc6c481d92a98730e29500b92476 ""
+  "Prt sc/Result.png" 1733605902.02029 1812 fb7af6b65ed32f9139115ab536aa2759 ""
+  "lab_4.aux" 1733607147.51234 262 ff01827cfc8bba314231f7ee15f8cb53 "pdflatex"
+  "lab_4.out" 1733607147.299 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "lab_4.tex" 1733607146.359 8187 e9dc48e4ff6e2ac9b1bf58abd2c6fa95 ""
   (generated)
   "lab_4.aux"
   "lab_4.log"
