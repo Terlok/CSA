@@ -40,7 +40,7 @@ _start:
     xor ebx, ebx
     lea ecx, array
     xor edi, edi
-
+    
 startloop:
     cmp ebx, eax
     je endloop
@@ -89,6 +89,11 @@ skip_fraction:
     mov eax, 15
     mov ebx, filename
     mov ecx, 0o647
+    int 0x80  
+
+    mov eax, 356
+    mov ebx, filename
+    mov ecx, 1
     int 0x80
 
     mov eax, 1

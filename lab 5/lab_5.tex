@@ -234,14 +234,21 @@ skip_fraction:
     mov eax, 15
     mov ebx, filename
     mov ecx, 0o647
-    int 0x80
+    int 0x80  
 
+    mov eax, 356
+    mov ebx, filename
+    mov ecx, 1
+    int 0x80
+    \end{lstlisting}
+
+    \newpage
+    \begin{lstlisting}[language=assembler]
     mov eax, 1
     xor ebx, ebx
     int 0x80
     \end{lstlisting}
 
-\newpage
     \begin{center}
         \Large{Results}
     \end{center}
@@ -251,5 +258,15 @@ skip_fraction:
             \includegraphics[width=1\linewidth]{Prt sc/figure_1.png}  
         \end{minipage}
     \end{figure}
+    За допомогою утиліти strace можемо відслідкувати взаємодію нашої програми та ядра лінукс.
+    В результаті бачимо рядок \textbf{memfd\_create("lab5\_4", MFD\_CLOEXEC) = 4}. Розберемо параметри:
+    \begin{itemize}
+        \item \textbf{memfd\_create} — створює анонімний файл у пам'яті із назвою lab5\_4 та прапором MFD\_CLOEXEC.
+        Цей файл буде автоматично закрито при виконанні \textbf{execve}.
+        \item \textbf{= 4} — файловий дескриптор файлу.
+    \end{itemize}
+    Анонімний файл, який ми створили за допомогою \textbf{memfd\_create} не має імені у файловій системі.
+    Проте має файловий дескриптор, який повертається системним викликом у регістрі \textbf{eax}. 
+    Цей дескриптор можемо використовувати для операцій з файлом.
 
 \end{document}
